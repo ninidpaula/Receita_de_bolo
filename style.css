@@ -4,5 +4,49 @@ html{
 
 body{
   margin: 10px;
-  font-family:
+  font-family: "Nunito Sans", sans-serif;
+  color: #222;
+}
+
+h1 {
+  font-size: 3.815rem;
+}
+
+h2 {
+  font-size: 3.052rem;
+}
+
+p {
+  font-size: 2rem;
+  margin: 0;
+}
+
+ul li {
+  font-size:1.8rem;
+}
+
+.container {
+  max-width:1024px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  margin-top:1rem;
+  object-fit: cover;
+}
+
+@media screen and (min-width:1024px) {
+  h1 {
+    font-size: 4.768rem;
+  }
+  h2 {
+    font-size: 3.815rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  ul li {
+    font-size: 2.2 rem;
+  }
 }
