@@ -8,6 +8,10 @@ body{
   color: #222;
 }
 
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
   font-size: 3.815rem;
 }
@@ -17,6 +21,7 @@ h2 {
 }
 
 p {
+  font-family: "Rubik", sans-serif;
   font-size: 2rem;
   margin: 0;
 }
